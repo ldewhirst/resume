@@ -1,0 +1,33 @@
+
+.content {
+  position: relative;
+  min-height: 600px;
+  background-image: url(../assets/images/main-image.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.content .content-title {
+  position: absolute;
+  top: 80%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+}
+
+.selling-points {
+  position: relative;
+}
+
+.point {
+  position: relative;
+  padding: 1rem;
+  text-align: center;
+}
+
+.point .point-title {
+  font-size: 1.25rem;
+}
